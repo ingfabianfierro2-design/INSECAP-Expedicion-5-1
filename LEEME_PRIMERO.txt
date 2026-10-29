@@ -1,0 +1,31 @@
+INSECAP — EXPEDICIÓN 5/1 — PWA V1
+
+ESTADO: PAQUETE PREPARADO, NO PUBLICADO NI PROBADO EN DISPOSITIVOS REALES.
+
+CONTENIDO:
+index.html — interfaz visual con 25 tarjetas (5 equipos x 5 estaciones)
+data.js — 75 preguntas sin respuestas, valores y recorridos
+COL/VEN/PER/BOL/CHI.jpg — imágenes corporativas originales
+sw.js — caché para trabajar offline
+manifest.webmanifest + iconos — instalación
+GENERAR_QR.py — genera 25 QR con enlaces HTTPS tras publicar
+
+PUBLICACIÓN (por ejemplo, GitHub Pages):
+1. Subir TODOS los archivos de esta carpeta a la raíz de un repositorio público de GitHub.
+2. Configurar Settings > Pages > Deploy from a branch > main / (root).
+3. Esperar a que aparezca la URL https://USUARIO.github.io/REPOSITORIO/.
+4. Abrir la URL desde Safari (iPhone) o Chrome (Android) CON INTERNET.
+5. En iPhone: Compartir > Añadir a pantalla de inicio > Abrir como app. En Android: Instalar aplicación.
+6. Esperar la confirmación 'Tarjetas guardadas para uso offline'.
+7. Activar modo avión, cerrar y volver a abrir desde el icono instalado, probar preguntas, logos y códigos manuales.
+8. Probar escáner de la aplicación. El lector integrado usa BarcodeDetector, que NO está disponible en todas las versiones de Safari/iOS. En esos teléfonos usar el código manual.
+9. En un ordenador, ejecutar: python GENERAR_QR.py https://USUARIO.github.io/REPOSITORIO/
+   Requiere Python con qrcode y Pillow. Genera tarjetas QR en PDF y PNG.
+
+IMPORTANTE:
+- NO se garantiza escaneo por cámara dentro de la PWA en todos los iPhone. Se ofrece ingreso manual de código.
+- Un QR HTTPS abierto desde la cámara del sistema sin internet puede fallar aunque la PWA esté instalada. Abrir la PWA desde su icono es más confiable.
+- Los QR no están generados con un enlace real porque falta conocer la URL pública.
+- No existe servidor ni conexión necesarios durante la actividad, una vez instalados y precargados los archivos.
+- Los objetos y pasaportes son físicos. Esta app no registra respuestas ni puntos.
+- El terreno y ubicaciones requieren validación presencial.
