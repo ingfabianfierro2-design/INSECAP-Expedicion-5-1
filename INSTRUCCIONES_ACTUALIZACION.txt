@@ -1,13 +1,12 @@
-INSECAP EXPEDICIÓN 5/1 — EDICIÓN DEFINITIVA PARA EL EVENTO
+INSECAP Expedición 5/1 — corrección visual de encabezado
 
-1. Descomprime el ZIP en el notebook.
-2. En el repositorio GitHub INSECAP-Expedicion-5-1, actualiza los archivos de la RAÍZ con los de esta carpeta.
-3. Los archivos principales que CAMBIAN son index.html, sw.js, manifest.webmanifest, icon-192.png e icon-512.png.
-4. NUEVO archivo indispensable: expedicion-portada.webp. Debe estar al mismo nivel que index.html.
-5. data.js y claves.js conservan exactamente las preguntas, rutas y claves de la V2.
-6. Espera la publicación de GitHub Pages y abre la app con internet para descargar la actualización.
-7. Cierra y reabre la app. Si aún aparece el diseño antiguo, abre la dirección desde Safari/Chrome, actualiza y vuelve a abrir la app instalada.
-8. Antes del evento, prueba en modo avión las cinco misiones y las claves en un iPhone y un Android.
+Único cambio visual: encabezado centrado con tres líneas:
+Team Building Insecap 2026
+EXPEDICIÓN 5/1
+5 Países - 1 solo corazón
 
-AVISO: Los archivos del repositorio público contienen las claves de desbloqueo en claves.js. No subas la hoja adicional de claves del facilitador.
-El progreso local se conserva con la misma clave de almacenamiento de la V2. La aplicación dispone de Reiniciar progreso de este equipo.
+Se conserva el resto de la aplicación: países, preguntas, imágenes, rutas, claves y desbloqueo.
+Se incrementó versión de caché offline para actualizar la PWA instalada.
+
+Para GitHub: subir index.html y sw.js a la raíz del repositorio, reemplazando versiones previas. El ZIP también contiene todos los demás archivos para una instalación completa.
+Abrir una vez con internet y volver a iniciar la app; luego probar modo avión.
