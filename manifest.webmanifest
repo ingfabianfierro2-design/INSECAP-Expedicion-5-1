@@ -1,11 +1,11 @@
 {
-  "name": "INSECAP · Expedición 5/1",
+  "name": "INSECAP · Expedición 5/1 · Team Building 2026",
   "short_name": "Expedición 5/1",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#eaf0f7",
-  "theme_color": "#11243c",
+  "theme_color": "#0a234b",
   "icons": [
     {
       "src": "icon-192.png",
