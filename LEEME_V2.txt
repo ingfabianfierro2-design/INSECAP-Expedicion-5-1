@@ -1,0 +1,9 @@
+INSECAP EXPEDICIÓN 5/1 V2
+
+PUBLICAR EN GITHUB PAGES: subir los archivos index.html, data.js, claves.js, sw.js, manifest.webmanifest, imágenes COL/VEN/PER/BOL/CHI, insecap-logo.png, capin.png e iconos.
+NO SUBIR CLAVES_PARA_FACILITADOR_NO_PUBLICAR.html (es la hoja para imprimir y colocar claves en cajas).
+En la app las claves están en claves.js, por lo que no son un sistema de seguridad contra inspección técnica: sirven para la dinámica presencial.
+
+La misión 1 de cada país aparece habilitada; tras introducir la clave encontrada en la caja de la estación correspondiente, se desbloquea la misión siguiente. Las respuestas se escriben en pasaporte físico. El avance se guarda en almacenamiento local del dispositivo.
+
+Después de actualizar GitHub, probar en línea y luego modo avión; si la versión anterior queda guardada, cerrar/reabrir la app o eliminarla e instalarla nuevamente.
